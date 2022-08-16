@@ -1,0 +1,157 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.sosmed {
+    padding:10px 40px;
+    background-color: black;
+    color: white;
+}
+
+.sosmed ul li {
+    padding: 10px;
+    display:inline-block;
+    color:white;
+}
+
+.container {
+    width:80%;
+    margin:0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header {
+    background-color: rgb(230, 230, 230);
+}
+header ul li {
+    display: inline-block; 
+    padding: 0px 0px;
+    margin: 10px;
+}
+
+header ul {
+    float: right;
+}
+
+header img {
+    float: left;
+    padding: 25px 20px;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+
+header .container li i{
+
+    width: 30px;
+}
+header h2 {
+    float: left;
+    padding: 20px 0px;
+    margin: 10px;
+}
+
+header ul li a {
+    padding: 20px 20px;
+    display: inline-block;    
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+header ul li a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+}
+
+.active {
+    color: #0030ff; 
+    border-radius: 40px;
+}
+
+.information .container h1 {
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.information .container {
+    width: 50%;
+    padding: 20px;  
+}
+
+.information .container p {
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.information .container img {
+    align-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+}
+
+footer .aboutclose {
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+
+.galleryalbum .container h1 {
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.galleryalbum .container {
+    align-items: center;
+    width: 50%;
+    padding: 20px;  
+}
+
+.galleryalbum .container img{
+    align-items: center;
+    size: 20px 50px;
+    width: 30%;
+    padding: 10px;  
+}
+
+.galleryalbum.container p {
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.galleryalbum .container h3 {
+    position: absolute;
+    padding-bottom: 50px;
+    margin:75px 270px;
+}
+
+
+
+
+
